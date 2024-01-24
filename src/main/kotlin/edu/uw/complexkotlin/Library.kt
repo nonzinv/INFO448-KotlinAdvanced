@@ -88,6 +88,12 @@ class Command(val prompt: String) {
     }
 }
 
+/*
+Seneca the Younger is a philosopher who is known for his association with stoicism as well as his
+tragedies (play). He has become one of the first stoics and still is being studied. According to Seneca,
+stoicism is the idea that virtue is sufficient for one's happiness and virtue is also within one's power.
+*/
+
 fun main() {
     println(r1())
     println(r2())
@@ -99,6 +105,7 @@ fun main() {
     val result2: String = fizzbuzz(0..15)
     println(result2)
 }
+
 
 
 
